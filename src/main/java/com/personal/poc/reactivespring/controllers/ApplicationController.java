@@ -23,6 +23,6 @@ public class ApplicationController {
     }
 
     private Stock getStocks() {
-        return new Stock("GOOGLE", Math.random() * 1.5);
+        return new Stock("GUJJU", "Sannedo Sannedo, Sannedo laal sannedo");
     }
 }
