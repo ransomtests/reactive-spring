@@ -6,6 +6,8 @@
 
     <groupId>com.personal.poc</groupId>
     <artifactId>reactive-spring</artifactId>
+	
+	<!--   This is a bug fix-->
     <version>1.0.0</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -34,6 +36,9 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+			
+			
+			<!--   This is a bug fix-->
 
             <plugin>
                 <groupId>org.springframework.boot</groupId>
